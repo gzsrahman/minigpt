@@ -10,4 +10,15 @@ The new, token-level model makes the generation less granular. Rather than predi
 
 I credit Rick Riordan and J.K. Rowling for the datasets, which consists of your choice of either the 'Percy Jackson and the Olympians' (`input.txt`) series or the 'Harry Potter' series (`input2.txt`).
 
+Here's a sample of what the generation looks like:
+```
+(venv) gazirahman@starlabs-3 minigpt % python generate.py
+Enter the text that you'd like to be completed: He stepped into the castle
+He stepped into the castle.
+Harry felt Ron looked secondhand, echoing the marble Get at once.  Harry Snape, and the Hufflepuff potion had burned her feet.  The stairs he found smoke upward, muttering students.
+Harry put the picture of the car.  And they should fly, George and Hagrid, as he noticed for a mirror Sonorus of the curtains.  Harry saw the window and tentatively very pelting of the curtains them fell, his magnificent wings was sitting examining him to go, Dobby marched had never raised her, looking sizes wanting a chirruping of tight she'd something
+```
+
+
+
 To run this repo, create a virtual environment with Python 3.12 and use `pip` to install the `requirements.txt` file. In each file that you wish to run, make sure to modify the paths according to your own device, and then proceed as desired. It will suffice to run either `python gpt.py` or `python generate.py`. Alternatively, you can experiment with the corresponding Jupyter Notebooks instead.
